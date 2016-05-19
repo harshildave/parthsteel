@@ -7,7 +7,7 @@
     String username=request.getParameter("username");
     String password=request.getParameter("password");
     
-   /* String rememberMe=  request.getParameter("rememberMe");
+   /* String rememberMe=  request.getParameter("rememberMe"); fave
     if(rememberMe!=null)
     {
         Cookie usernameCookie = new Cookie("username-cookie", username);
