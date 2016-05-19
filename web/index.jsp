@@ -8,7 +8,6 @@
     String password=request.getParameter("password");
     //harshil
     
-    
    /* String rememberMe=  request.getParameter("rememberMe");
     if(rememberMe!=null)
     {
