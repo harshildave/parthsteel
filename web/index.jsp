@@ -6,6 +6,7 @@
     <%
     String username=request.getParameter("username");
     String password=request.getParameter("password");
+    
    /* String rememberMe=  request.getParameter("rememberMe");
     if(rememberMe!=null)
     {
