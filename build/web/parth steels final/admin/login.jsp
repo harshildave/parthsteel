@@ -84,11 +84,11 @@
                                 <div class="form-group">
                                     <a href="forgetpass.jsp">Forget Password</a>
                                 </div>
-                                <div class="checkbox">
+                                <!--<div class="checkbox">
                                     <label>
                                         <input name="remember" type="checkbox" value="keeplogin">Remember Me
                                     </label>
-                                </div>
+                                </div>-->
                                 <!-- Change this to a button or input when using this as a form -->
                                 <input class="btn btn-lg btn-success btn-block" name="log" type="submit" value="login">
                             </fieldset>
