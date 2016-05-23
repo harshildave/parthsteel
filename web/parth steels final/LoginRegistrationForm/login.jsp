@@ -100,11 +100,11 @@
                                 </p>
                                 <p> 
                                     <label for="passwordsignup" class="youpasswd" data-icon="&#xe805;">Your password </label>
-                                    <input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="eg. X8df!90EO"/>
+                                    <input id="passwordsignup" name="passwordsignup" required="required" pattern=".{6,16}" required title="minimum 6 to maximum 16 characters" type="password" placeholder="eg. X8df!90EO"/>
                                 </p>
                                 <p> 
                                     <label for="passwordsignup_confirm" class="youpasswd" data-icon="&#xe805;">Please confirm your password </label>
-                                    <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="eg. X8df!90EO"/>
+                                    <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" pattern=".{6,16}" required title="minimum 6 to maximum 16 characters" type="password" placeholder="eg. X8df!90EO"/>
                                 </p>
                                 <p class="signin button"> 
                                     <input type="submit" value="Sign up" name="sub"/> 
