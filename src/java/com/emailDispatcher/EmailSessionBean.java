@@ -25,6 +25,7 @@ public class EmailSessionBean {
 
     public void sendEmail(String to, String subject, String body) {
         Properties props = new Properties();
+        
         props.put("mail.smtp.host", host);
         props.put("mail.smtp.port", port);
         switch (protocol) {
