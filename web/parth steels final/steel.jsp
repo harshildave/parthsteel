@@ -112,7 +112,7 @@
         </nav>
     </div>
 </header>
-<div class="page-header single consulting" style="height: 650px; background-image:demo/learn-more/consulting/slider.jpg">
+<div class="page-header single consulting" style="height: 650px; background-image:'demo/learn-more/consulting/slider.jpg'">
     <div class="title light">
         <h1 class="light fz70">Consultancy</h1>
         <h2 class="light fz24">We've got everything you want for consultations</h2>
@@ -152,7 +152,7 @@
                         <p>As multi-disciplined Engineering Consulting firm, we serve a variety of projects in the real estate industry. We are committed to delivering excellence to our clients by maintaining the highest standards of quality.</p>
                         <p>Our team looks beyond conventional services by adding value at every step of the project and thereby enabling us to move ahead of competition. Our value-adds are proposed as an advantage to both the developers and the future occupants of the project.</p>
 
-<b>consultant= Harshil Ranbhan (civil engineer)</b></p>
+                        <p><b>consultant= Harshil Ranbhan (civil engineer)</b></p>
                     </div>
                 </div>
             </div>

@@ -82,13 +82,18 @@ if(sub != null){
                     pass = rs.getString(6);
                     
                 }
-                
-            String msg = "Username : "+name+"Password : "+pass;
+            StringBuilder message = new StringBuilder(40); 
+            message.append("Username: ");
+        message.append(name);
+        message.append("\n");
+        message.append("Password: ");
+        message.append(pass);
+
                   
 
                    if(row == 1)
                 {   
-                    emailBean.sendEmail(uemail,subject,msg);
+                    emailBean.sendEmail(uemail,subject,message.toString());
 
                     out.println("<script>alert('Password is mailed to your email.Please login now');</script>");
                     out.println("<script>window.location='login.jsp';</script>");
@@ -104,7 +109,7 @@ if(sub != null){
 }
 catch(Exception e){
     out.println("connection error: "+e);
-                            out.println("<script>alert("+e+");</script>");
+    out.println("<script>alert("+e+");</script>");
 
 }
 }

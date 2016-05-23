@@ -208,8 +208,8 @@ try{
                                             <select name="company" class="form-control">
                                                 <option value="0">Select</option>
                                                 <option value="1">diamond</option>
-                                                <option value="2">jindal panther</option>
-                                                <option value="3">asr</option>
+                                                <option value="2">asr</option>                                                
+                                                <option value="3">jindal panther</option>
                                                 <option value="4">nre</option>
                                             </select>
                                         </div>
