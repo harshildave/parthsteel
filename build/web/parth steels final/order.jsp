@@ -138,21 +138,47 @@ else{
             
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1">
-                    <h2 class="title fz26 upper">With over 25 years of experience, we have established an efficient process that successfully provides clients</h2>
+                    <h2 class="title fz26 upper"><u>Terms And Conditions</u> (Please read it carefully before placing order)</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 post-content">
                     <div class="text">
-                    <p>FIRSTLY OUR COMPANY STARTED WITH CTD BARS AND VSP I.E.MAIN PRODUCERS STEEL ,DEALING WITH LIMITED COMPANIES AS THERE WERE NO MORE COMPETITORS IN MARKET. NOW-A-DAYS AS COMPETITION INCREASE IN MARKET WE STARTED DEALING WITH AND WORKING WITH STEEL COMPANIES LIKE:-</p>
-                    <p>1. ASR (KUTCHH)</p>
-                    <p>2. DIAMOND (BHAVNAGAR)</p>
-                    <p>3. FRIENDS TMT </p>
-                    <p>4. GUJARAT NRE</p>
-                    <p>5. JINDAL PANTHER (MAIN PRODUCERS=JSW STEELS)</p>
+                    <p><b>Terms and condition for ISI TMT bars supply </b>:- There are two types of dispatch in Tmt bars one is 
+                        directly from factory and secondly from godown. For the order above 7 ton material the bars will 
+                        be dispatched from factory and below 5 ton material from godown. If dispatch is from godown frait, 
+                        loading and unloading charges will be applied.We provide labours for direct dispatch in surrounding 20 km. 
+                        Area there after purchase has arrange labour for unloading materials</p>
                     
-                    <p>FIRST WE STARTED WITH SUPPLYING OF STEEL THEN FEW YEARS LATER WE STARTED SUPPLY OF CEMENT.WE ARE SUPPLYING KAMAL CEMENT AND NOW WE ARE STOCKIST IN KAMAL CEMENT WITH SUPPORT OF CUSTOMERS. OUR SALES WHEN WE STARTED WORKING WITH KAMAL CEMENT WAS 500MT IN TRADE AND NON-TRADE , BUT NOW OUR SALES IS UPTO 5000MT PER MONTH IN TRADE AND NON TRADE. FIRST OF ALL WE STARTED WORKING WITH L&T CEMENT WITH LIMITED SALES FEW YEARS AFTER WE STARTED OUR COMPANY.</p>
-
+                    <p><b>Rate condition for Steel</b> :- Rate for ISI TMT is basis on day to day rates.</p>
+                    
+                    <p><b>Payment condition for steel</b> :- In Rajkot and in 20km surrounding payment should be paid next day 
+                        after the materials are dispatched. For out of city, the payment should be advance by rtgs- neft or money 
+                        transfer.</p>
+                    
+                    <p><b>Complains regarding steel</b> :- Have any confusion or complain regarding ISI TMT bars!! In that case 
+                        company sales officer or technical person will visit to site and check the materials and he will decide 
+                        about what to do regarding confusion or complain. </p>
+                    
+                    <p><b>Terms and condition for cement supply</b> :- There are two types of dispatch in Cement one is 
+                        directly from factory and secondly from dump. For the order above 17 ton material the cement will 
+                        be dispatched from factory and below that would be from dump.For cement, order must be greater then 3 tons 
+                        minimum. Dump dispatch would be in 20km surrounding Rajkot, whereas factory dispatch up 
+                        to Gujarat</p>
+                    
+                    <p><b>Rate condition for cement </b>:- There are two types of rate in cement mainly trade and nontrade. <b>Trade</b> :- 
+                        In this segment minimum 60 bags (3ton) free delivery in surrounding 20 km area from Rajkot. Rate applied would be 
+                        on day to day bases if quantity is below 3 Mt. Frait and labour charges also applied. <b>Non trade</b> :- Minimum 
+                        quantity 51 Mt. required and rate will be applied on day to day basis.</p>
+                    
+                    <p><b>Payment condition for cement</b> :- For <b>Non Trade</b> advance payment by cheque or d/d and rtgs- neft- transfer for the 
+                        cement company. For <b>Trade</b> payment in Rajkot next day after dispatch and out of city payment should 
+                        advance by cheque or rtgs- d/d neft- transfer.</p>
+                    
+                    <p><b>Complain regarding cement</b> :- As per company's terms, for any confusion or complain, the company provides technical 
+                        person will visit the site and will conduct tests for the quality of concrete and cement and Thus will decide about 
+                        what to do regarding confusion or complain</p>
+                    
                     </div>
                 </div>
             </div>

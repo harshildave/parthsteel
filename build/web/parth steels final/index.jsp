@@ -884,11 +884,22 @@ if(sub != null){
         String name = request.getParameter("name");
         String email = request.getParameter("email");
         String phone = request.getParameter("phone");
-        String message;
+        String msg = request.getParameter("message");
         String to = "harshil.dave7@gmail.com";
-        message = "Name : "+name+"Email : "+email+"Phone num : "+phone+"Message : "+request.getParameter("message");
+        StringBuilder message = new StringBuilder(40); 
+        message.append("Name: ");
+        message.append(name);
+        message.append("\n");
+        message.append("Email: ");
+        message.append(email);
+        message.append("\n");
+        message.append("Phone: ");
+        message.append(phone);
+        message.append("\n");
+        message.append("Message: ");
+        message.append(msg);        
         String subject = "Contact us Email";
-        emailBean.sendEmail(to,subject,message);
+        emailBean.sendEmail(to,subject,message.toString());
         out.println("<script>alert('Your message has been sent sucessfully !');</script>");
 
 }

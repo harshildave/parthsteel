@@ -208,16 +208,16 @@ try{
                                             <select name="company" class="form-control">
                                                 <option value="0">Select</option>
                                                 <option value="1">diamond</option>
-                                                <option value="2">jindal panther</option>
-                                                <option value="3">asr</option>
+                                                <option value="2">asr</option>                                                
+                                                <option value="3">jindal panther</option>
                                                 <option value="4">nre</option>
                                             </select>
                                         </div>
                                         <div class="form-group">
-                                            <label>Base Price : </label>
+                                            <!--<label>Base Price : </label>
                                             <input type="text" placeholder="Enter price">
                                             <label> </label>
-                                            <input type="button" class="btn btn-primary" value="Compute">
+                                            <input type="button" class="btn btn-primary" value="Compute">-->
                                         </div>
                                         <div class="form-group">
                                             <label> 8 mm : </label>

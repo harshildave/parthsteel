@@ -43,62 +43,62 @@ public final class forgetpass_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("<!DOCTYPE html>\n");
-      out.write("<!--[if lt IE 7 ]> <html lang=\"en\" class=\"no-js ie6 lt8\"> <![endif]-->\n");
-      out.write("<!--[if IE 7 ]>    <html lang=\"en\" class=\"no-js ie7 lt8\"> <![endif]-->\n");
-      out.write("<!--[if IE 8 ]>    <html lang=\"en\" class=\"no-js ie8 lt8\"> <![endif]-->\n");
-      out.write("<!--[if IE 9 ]>    <html lang=\"en\" class=\"no-js ie9\"> <![endif]-->\n");
-      out.write("<!--[if (gt IE 9)|!(IE)]>-->  <!--<![endif]-->\n");
-      out.write("    <head>\n");
-      out.write("        <meta charset=\"UTF-8\" />\n");
-      out.write("        <!-- <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">  -->\n");
-      out.write("        <title>Login and Registration Form </title>\n");
-      out.write("        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> \n");
-      out.write("        <meta name=\"description\" content=\"Login and Registration Form with HTML5 and CSS3\" />\n");
-      out.write("        <meta name=\"keywords\" content=\"html5, css3, form, switch, animation, :target, pseudo-class\" />\n");
-      out.write("        <meta name=\"author\" content=\"Harshil Dave\" />\n");
-      out.write("        <link rel=\"shortcut icon\" href=\"../favicon.ico\"> \n");
-      out.write("        <link rel=\"stylesheet\" type=\"text/css\" href=\"css/demo.css\" />\n");
-      out.write("        <link rel=\"stylesheet\" type=\"text/css\" href=\"css/style2.css\" />\n");
-      out.write("\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/animate-custom.css\" />\n");
-      out.write("    </head>\n");
-      out.write("    <body>\n");
-      out.write("        <div class=\"container\">\n");
-      out.write("            \n");
-      out.write("            <header>\n");
-      out.write("                <h1>Forget Password</h1>\n");
-      out.write("                <h1><a href=\"../index.jsp\">Back to Home</a></h1>\n");
-      out.write("            </header>\n");
-      out.write("            <section>\t\t\t\t\n");
-      out.write("                <div id=\"container_demo\" >\n");
-      out.write("                    <div id=\"wrapper\">\n");
-      out.write("                        <div id=\"login\">\n");
-      out.write("                            <form  autocomplete=\"on\"> \n");
-      out.write("                                <h1>Please Enter valid email registered during signup !!!</h1> \n");
-      out.write("                                \n");
-      out.write("                                <p> \n");
-      out.write("                                    <label for=\"emailsignup\" class=\"youmail\" data-icon=\"&#xe802;\" > Your email</label>\n");
-      out.write("                                    <input id=\"emailsignup\" name=\"email\" required=\"required\" type=\"email\" placeholder=\"mysupermail@mail.com\"/> \n");
-      out.write("                                </p>\n");
-      out.write("                                \n");
-      out.write("                                <p class=\"signin button\"> \n");
-      out.write("                                    <input type=\"submit\" value=\"Submit\" name=\"sub\"/> \n");
-      out.write("\t\t\t\t</p>\n");
-      out.write("                                \n");
-      out.write("                            </form>\n");
-      out.write("                        </div>\n");
-      out.write("\t\t\t\t\t\t\n");
-      out.write("                    </div>\n");
-      out.write("                </div>  \n");
-      out.write("            </section>\n");
-      out.write("        </div>\n");
-      out.write("        \n");
-      out.write("        \n");
-      out.write("    </body>\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("<!DOCTYPE html>\r\n");
+      out.write("<!--[if lt IE 7 ]> <html lang=\"en\" class=\"no-js ie6 lt8\"> <![endif]-->\r\n");
+      out.write("<!--[if IE 7 ]>    <html lang=\"en\" class=\"no-js ie7 lt8\"> <![endif]-->\r\n");
+      out.write("<!--[if IE 8 ]>    <html lang=\"en\" class=\"no-js ie8 lt8\"> <![endif]-->\r\n");
+      out.write("<!--[if IE 9 ]>    <html lang=\"en\" class=\"no-js ie9\"> <![endif]-->\r\n");
+      out.write("<!--[if (gt IE 9)|!(IE)]>-->  <!--<![endif]-->\r\n");
+      out.write("    <head>\r\n");
+      out.write("        <meta charset=\"UTF-8\" />\r\n");
+      out.write("        <!-- <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">  -->\r\n");
+      out.write("        <title>Login and Registration Form </title>\r\n");
+      out.write("        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> \r\n");
+      out.write("        <meta name=\"description\" content=\"Login and Registration Form with HTML5 and CSS3\" />\r\n");
+      out.write("        <meta name=\"keywords\" content=\"html5, css3, form, switch, animation, :target, pseudo-class\" />\r\n");
+      out.write("        <meta name=\"author\" content=\"Harshil Dave\" />\r\n");
+      out.write("        <link rel=\"shortcut icon\" href=\"../favicon.ico\"> \r\n");
+      out.write("        <link rel=\"stylesheet\" type=\"text/css\" href=\"css/demo.css\" />\r\n");
+      out.write("        <link rel=\"stylesheet\" type=\"text/css\" href=\"css/style2.css\" />\r\n");
+      out.write("\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/animate-custom.css\" />\r\n");
+      out.write("    </head>\r\n");
+      out.write("    <body>\r\n");
+      out.write("        <div class=\"container\">\r\n");
+      out.write("            \r\n");
+      out.write("            <header>\r\n");
+      out.write("                <h1>Forget Password</h1>\r\n");
+      out.write("                <h1><a href=\"../index.jsp\">Back to Home</a></h1>\r\n");
+      out.write("            </header>\r\n");
+      out.write("            <section>\t\t\t\t\r\n");
+      out.write("                <div id=\"container_demo\" >\r\n");
+      out.write("                    <div id=\"wrapper\">\r\n");
+      out.write("                        <div id=\"login\">\r\n");
+      out.write("                            <form  autocomplete=\"on\"> \r\n");
+      out.write("                                <h1>Please Enter valid email registered during signup !!!</h1> \r\n");
+      out.write("                                \r\n");
+      out.write("                                <p> \r\n");
+      out.write("                                    <label for=\"emailsignup\" class=\"youmail\" data-icon=\"&#xe802;\" > Your email</label>\r\n");
+      out.write("                                    <input id=\"emailsignup\" name=\"email\" required=\"required\" type=\"email\" placeholder=\"mysupermail@mail.com\"/> \r\n");
+      out.write("                                </p>\r\n");
+      out.write("                                \r\n");
+      out.write("                                <p class=\"signin button\"> \r\n");
+      out.write("                                    <input type=\"submit\" value=\"Submit\" name=\"sub\"/> \r\n");
+      out.write("\t\t\t\t</p>\r\n");
+      out.write("                                \r\n");
+      out.write("                            </form>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("\t\t\t\t\t\t\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                </div>  \r\n");
+      out.write("            </section>\r\n");
+      out.write("        </div>\r\n");
+      out.write("        \r\n");
+      out.write("        \r\n");
+      out.write("    </body>\r\n");
  
 String sub;
 sub = request.getParameter("sub");
@@ -127,13 +127,18 @@ if(sub != null){
                     pass = rs.getString(6);
                     
                 }
-                
-            String msg = "Username : "+name+"Password : "+pass;
+            StringBuilder message = new StringBuilder(40); 
+            message.append("Username: ");
+        message.append(name);
+        message.append("\n");
+        message.append("Password: ");
+        message.append(pass);
+
                   
 
                    if(row == 1)
                 {   
-                    emailBean.sendEmail(uemail,subject,msg);
+                    emailBean.sendEmail(uemail,subject,message.toString());
 
                     out.println("<script>alert('Password is mailed to your email.Please login now');</script>");
                     out.println("<script>window.location='login.jsp';</script>");
@@ -149,11 +154,12 @@ if(sub != null){
 }
 catch(Exception e){
     out.println("connection error: "+e);
-                            out.println("<script>alert("+e+");</script>");
+    out.println("<script>alert("+e+");</script>");
 
 }
 }
 
+      out.write('\r');
       out.write('\n');
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){

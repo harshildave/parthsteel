@@ -108,10 +108,15 @@ if(sub != null){
                     aemail = rs.getString(4);
                     
                 }
-            String msg = "Username : "+aname+"Password : "+apass;
+            StringBuilder message = new StringBuilder(40); 
+            message.append("Username: ");
+        message.append(aname);
+        message.append("\n");
+        message.append("Password: ");
+        message.append(apass);
                 if(email.equals(aemail))
                 {   
-                    emailBean.sendEmail(aemail,subject,msg);
+                    emailBean.sendEmail(aemail,subject,message.toString());
 
                     out.println("<script>alert('Password is mailed to your email.Please login now');</script>");
                     out.println("<script>window.location='login.jsp';</script>");

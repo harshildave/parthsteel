@@ -212,10 +212,10 @@ try{
                                             </select>
                                         </div>
                                         <div class="form-group">
-                                            <label>Base Price : </label>
+                                            <!--<label>Base Price : </label>
                                             <input type="text"  placeholder="Enter price">
                                             <label> </label>
-                                            <input type="button" class="btn btn-primary" value="Compute">
+                                            <input type="button" class="btn btn-primary" value="Compute">-->
                                         </div>
                                         <div class="form-group">
                                             <label>ppc : </label>
