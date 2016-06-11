@@ -59,20 +59,14 @@ public class EmailSessionBean {
             message.setRecipients(Message.RecipientType.TO, address);
             message.setSubject(subject);
             message.setSentDate(new Date());
-            message.setText(body);
-//            Multipart multipart = new MimeMultipart("alternative");
-//            
-//            MimeBodyPart textPart = new MimeBodyPart();
-//            String textContent = "Hi, Nice to meet you!";
-//            textPart.setText(textContent);
-//
-//            MimeBodyPart htmlPart = new MimeBodyPart();
-//            String htmlContent = "<html><h1>Hi</h1><p>Nice to meet you!</p></html>";
-//            htmlPart.setContent(htmlContent, "text/html");
-//
-//            multipart.addBodyPart(textPart);
-//            multipart.addBodyPart(htmlPart);
-//            message.setContent(multipart);
+            if(subject.equals("Activation link"))
+            {
+                message.setContent(body,"text/html; charset=UTF-8");
+            }
+            else
+            {
+                            message.setText(body);
+            }
             Transport.send(message);
         } catch (MessagingException ex) {
             ex.printStackTrace();
