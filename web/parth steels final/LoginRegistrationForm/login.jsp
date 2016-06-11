@@ -4,6 +4,9 @@
     Author     : Admin
 --%>
 
+<%@page import="javax.mail.internet.MimeMessage"%>
+<%@page import="javax.mail.Message"%>
+<%@page import="com.emailDispatcher.EmailSessionBean"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.sql.*"%>
 <!DOCTYPE html>
@@ -100,11 +103,11 @@
                                 </p>
                                 <p> 
                                     <label for="passwordsignup" class="youpasswd" data-icon="&#xe805;">Your password </label>
-                                    <input id="passwordsignup" name="passwordsignup" required="required" pattern=".{6,16}" required title="minimum 6 to maximum 16 characters" type="password" placeholder="eg. X8df!90EO"/>
+                                    <input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="eg. X8df!90EO"/>
                                 </p>
                                 <p> 
                                     <label for="passwordsignup_confirm" class="youpasswd" data-icon="&#xe805;">Please confirm your password </label>
-                                    <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" pattern=".{6,16}" required title="minimum 6 to maximum 16 characters" type="password" placeholder="eg. X8df!90EO"/>
+                                    <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="eg. X8df!90EO"/>
                                 </p>
                                 <p class="signin button"> 
                                     <input type="submit" value="Sign up" name="sub"/> 
@@ -143,27 +146,33 @@ String pass = request.getParameter("password");
 PreparedStatement ps=con.prepareStatement("select * from reg where username=? and password=? ");
                 ps.setString(1, uname);
                 ps.setString(2, pass);
-                
                 ResultSet rs=ps.executeQuery();
-                
                 if(rs.next())
-                {   int uid = rs.getInt(1);
-                    String email = rs.getString(3);
-                    boolean chk = request.getParameter("loginkeeping") != null;
-                    out.println("<script>window.location='../order.jsp';</script>");
-                    session.setAttribute( "username", uname );
-                    session.setAttribute( "email", email );
-                    session.setAttribute( "uid", uid  );
-                    if(chk)
+                {
+                    if(rs.getString("status").equals("Active"))
                     {
-                        Cookie cuname = new Cookie("usercookie",uname);
-                        Cookie cpass = new Cookie("passcookie",pass);
-                        cuname.setMaxAge(24*60*60);
-                        cpass.setMaxAge(24*60*60);
-                        response.addCookie(cuname);
-                        response.addCookie(cpass);
+                        int uid = rs.getInt(1);
+                        String email = rs.getString(3);
+                        boolean chk = request.getParameter("loginkeeping") != null;
+                        out.println("<script>window.location='../order.jsp';</script>");
+                        session.setAttribute( "username", uname );
+                        session.setAttribute( "email", email );
+                        session.setAttribute( "uid", uid  );
+                        if(chk)
+                        {
+                            Cookie cuname = new Cookie("usercookie",uname);
+                            Cookie cpass = new Cookie("passcookie",pass);
+                            cuname.setMaxAge(24*60*60);
+                            cpass.setMaxAge(24*60*60);
+                            response.addCookie(cuname);
+                            response.addCookie(cpass);
+                        }
                     }
-                    
+                    else
+                    {
+                        out.println("<script>alert('Please Active user.');</script>");
+                        out.println("<script>window.location='login.jsp';</script>");
+                    }
                     
                 }
                 else
@@ -212,12 +221,31 @@ if(row > 0)
 }
 else
 { 
- if(pass.equals(cpass))
+    if(pass.equals(cpass))
  {
       Statement st= con.createStatement(); 
  int x=st.executeUpdate("insert into reg (username,email,city,phone,password) values ('"+uname+"','"+email+"','"+city+"','"+mob+"','"+pass+"')"); 
+PreparedStatement ps=con.prepareStatement("select uid from reg where email=? ");
+ps.setString(1, email); 
+ResultSet rs=ps.executeQuery();
+int uid = 0;
+if (rs.next())    
+{
+    uid = rs.getInt(1);
+}
  if(x == 1){
-    out.println("<script>alert('Please log in now');</script>");
+     String link = "http://localhost:8080/colgproject/parth%20steels%20final/LoginRegistrationForm/validateuser.jsp?uid="+uid;
+     StringBuilder bodyText = new StringBuilder();
+                bodyText.append("<div>")
+                 .append("  Dear User<br/><br/>")
+                 .append("  Thank you for registration. Your mail ("+email+") is under verification<br/>")
+                 .append("  Please click <a href=\""+link+"\">here</a> for active user.<br/>")
+                 .append("  <br/><br/>")
+                 .append("  Thanks")
+                 .append("</div>");
+            EmailSessionBean emailBean = new EmailSessionBean();
+            emailBean.sendEmail(email,"Activation link",bodyText.toString());
+    out.println("<script>alert('Check the email for activation link');</script>");
      out.println("<script>window.location='login.jsp';</script>");
  }       
 
