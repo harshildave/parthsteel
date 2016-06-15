@@ -21,11 +21,14 @@ con=conn.DBconnect();
  out.println(cpass);*/
 
 Statement st= con.createStatement(); 
+Statement stf= con.createStatement(); 
 String sql = "select * from steel_grades ";
+ResultSet rs=st.executeQuery(sql);
+
 String comp[]={"Diamond","ASR","Jindal Panther","Gujarat NRE"};
-               
-                
-                ResultSet rs=st.executeQuery(sql);
+
+String sqlf = "select * from steel_factory ";
+ResultSet rsf=stf.executeQuery(sqlf);
                 
                 
 
@@ -50,6 +53,7 @@ String comp[]={"Diamond","ASR","Jindal Panther","Gujarat NRE"};
         }
     </style>
     <link rel="stylesheet" type="text/css" href="./css/uniform.css" />
+    <link rel="stylesheet" type="text/css" href="./css/radio.css" />
     <link rel="stylesheet/less" type="text/css" href="./css/uniform.less" />
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -58,7 +62,7 @@ String comp[]={"Diamond","ASR","Jindal Panther","Gujarat NRE"};
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
 <body data-spy="scroll" data-target=".navbar-main-collapse">
-<div class="loader">
+<!--<div class="loader">
     <div class="sk-fading-circle">
       <div class="sk-circle1 sk-circle"></div>
       <div class="sk-circle2 sk-circle"></div>
@@ -74,7 +78,7 @@ String comp[]={"Diamond","ASR","Jindal Panther","Gujarat NRE"};
       <div class="sk-circle12 sk-circle"></div>
     </div>
 </div>
-
+-->
 <header id="header" style="
     background: black;
     padding-top: 35px;
@@ -172,16 +176,40 @@ String comp[]={"Diamond","ASR","Jindal Panther","Gujarat NRE"};
                 </div>
             </div>
         </article>
+            <!--<div class="row">
+                <div class="col-sm-10 col-sm-offset-1 post-content text">
+                    <form>
+                        <p><input type="radio" name="radio" value="" id="cus" onclick="a()">
+                            godown price for order less than 7 tons </input></p>
+                        <p><input type="radio" name="radio"  id="pro" onclick="b()">
+                            factory price for order greater than 7 tons </input></p>
+
+                    </form>
+                </div>
+            </div>-->
+         
+            <div class="modal-dialog">
+        <div class="quiz" id="quiz" data-toggle="buttons">
+                <label class="element-animation1 btn btn-lg btn-primary btn-block" onclick="a()">
+                <span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span>
+                <input type="radio" name="q_answer" value="1" onclick="a()">1 For order less than 7 tons (Godown price)</label>
+            
+                <label class="element-animation2 btn btn-lg btn-primary btn-block"onclick="b()">
+               <span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> 
+               <input type="radio" name="q_answer" value="2" onclick="b()">2 For order greater than 7 tons (Factory price)</label>
+        </div>
+</div>
     </div>
 </section>
 
-<!-- price -->
+<!-- price from godown -->
+<div id="div1">
 <section class="section nopadding" id="counters">
     <div class="container">
         
         <div class="row">
             <div class="col-sm-10 col-sm-offset-2" style="margin-top:20px;">
-                    <h2 class="title fz26 upper">The Runtime price for various companies are shown below.  .</h2>
+                    <h2 class="title fz26 upper">The Runtime price of godown for various companies are shown below.  .</h2>
                 </div>
         </div>
         
@@ -313,11 +341,157 @@ String comp[]={"Diamond","ASR","Jindal Panther","Gujarat NRE"};
             <center><a href="order.jsp" class="button fill" style="margin-bottom: 50px;">Purchase</a></center>
             
         </div>
+    </div>
+</section>
+</div>
+<!-- price from factory -->
+<div id="div2">
+<section class="section nopadding" id="counters">
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-2" style="margin-top:20px;">
+                    <h2 class="title fz26 upper">The Runtime price of Factory for various companies are shown below.
+                        (for orders greater then 7 tons only)
+                    </h2>
+                </div>
+        </div>
+        
+        <div class="row">
+            <div class="jt_col col-sm-2 col-md-1 col-sm-offset-2 ">
+                <div class="counter1 clearfix" >
+                    <div class="data">
+                        <span class="literal">Steel Companies</span>
+                    </div>
+                </div>
+            </div>
+            <div class="jt_col col-sm-2 col-md-1 col-sm-offset-1">
+                <div class="counter1 clearfix" >
+                    <div class="data">
+                        <span class="literal">8 mm</span>
+                    </div>
+                </div>
+            </div>
+            <div class="jt_col col-sm-2 col-md-1" style="margin-left:15px;">
+                <div class="counter1 clearfix" >
+                    <div class="data">
+                        <span class="literal">10 mm</span>
+                    </div>
+                </div>
+            </div>
+            <div class="jt_col col-sm-2 col-md-1"style="margin-left:15px;">
+                <div class="counter1 clearfix" >
+                    <div class="data">
+                        <span class="literal">12 mm</span>
+                    </div>
+                </div>
+            </div>
+            <div class="jt_col col-sm-2 col-md-1" style="margin-left:15px;">
+                <div class="counter1 clearfix" >
+                    <div class="data">
+                        
+                        <span class="literal">16 mm</span>
+                    </div>
+                </div>
+            </div>
+            <div class="jt_col col-sm-2 col-md-1" style="margin-left:15px;">
+                <div class="counter1 clearfix" >
+                    <div class="data">
+                        <span class="literal">20 mm</span>
+                    </div>
+                </div>
+            </div>
+            <div class="jt_col col-sm-2 col-md-1"style="margin-left:15px;">
+                <div class="counter1 clearfix" >
+                    <div class="data">
+                        <span class="literal">25 mm</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <%     
+                int j = 0;
+                while(rsf.next())
+                {   
+                    Float eight = rsf.getFloat(3);
+                    Float ten = rsf.getFloat(4);
+                    Float twelve = rsf.getFloat(5);
+                    Float sixteen = rsf.getFloat(6);
+                    Float twenty = rsf.getFloat(7);
+                    Float twentyfive = rsf.getFloat(8);
+                 
+                
+        %>
+            <div class="row">
+
+                <div class="jt_col col-sm-2 col-md-1 col-sm-offset-2 ">
+                <div class="counter1 clearfix" >
+                    <div class="data">
+                        <span class="literal"><%=comp[j]%></span>
+                    </div>
+                </div>
+            </div>
+            <div class="jt_col col-sm-2 col-md-1 col-sm-offset-1">
+                <div class="counter1 clearfix" data-count="<%=eight%>">
+                    <div class="data">
+                        <span class="number"><%=eight%></span> <span class="rs">Rs.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="jt_col col-sm-2 col-md-1"  style="margin-left:15px;">
+                <div class="counter1 clearfix" data-count="<%=ten%>">
+                    <div class="data">
+                        <span class="number"><%=ten%></span><span class="rs">Rs.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="jt_col col-sm-2 col-md-1" style="margin-left:15px;">
+                <div class="counter1 clearfix" data-count="<%=twelve%>">
+                    <div class="data">
+                        <span class="number"><%=twelve%></span><span class="rs">Rs.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="jt_col col-sm-2 col-md-1" style="margin-left:15px;">
+                <div class="counter1 clearfix" data-count="<%=sixteen%>">
+                    <div class="data">
+                        <span class="number"><%=sixteen%></span><span class="rs">Rs.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="jt_col col-sm-2 col-md-1" style="margin-left:15px;">
+                <div class="counter1 clearfix" data-count="<%=twenty%>">
+                    <div class="data">
+                        <span class="number"><%=twenty%></span><span class="rs">Rs.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="jt_col col-sm-2 col-md-1"style="margin-left:15px;">
+                <div class="counter1 clearfix" data-count="<%=twentyfive%>">
+                    <div class="data">
+                        <span class="number"><%=twentyfive%></span><span class="rs">Rs.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <%
+                j++;
+                }
+        %>
+        
+        <div class="row">
+            
+            <center><a href="order.jsp" class="button fill" style="margin-bottom: 50px;">Purchase</a></center>
+            
+        </div>
         
         
         
     </div>
 </section>
+</div>
 <!-- MAP 
 <section id="map-section" class="section full-width">
     <div class="container">
@@ -462,6 +636,27 @@ String comp[]={"Diamond","ASR","Jindal Panther","Gujarat NRE"};
 <script src="./js/default.js"></script>
 <script src="http://maps.googleapis.com/maps/api/js"></script>
 <script type="text/javascript" src="./js/google-map.js"></script>
+
+<script>
+		$(document).ready(function(){
+		$("#div1").hide();
+		$("#div2").hide();
+                });
+                
+		function a()
+		{
+			$("#div2").hide();
+			$("#div1").show();
+		}
+		function b()
+		{
+			$("#div1").hide();			
+			$("#div2").show();
+		}
+		
+
+	</script>
+        
 </body>
 </html>
 
