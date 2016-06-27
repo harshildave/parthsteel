@@ -4462,13 +4462,13 @@ textarea {
   background: url('../demo/learn-more/general-contracting/slider.jpg') no-repeat fixed top center;
 }
 .page-header.consulting {
-  background: url('../demo/learn-more/consulting/slider.jpg') no-repeat fixed top center;
+  background: url('../demo/learn-more/consulting/03.jpg') no-repeat fixed top center;
 }
 .page-header.steelsupply {
-  background: url('../demo/learn-more/steelsupply/slider.jpg') no-repeat fixed top center;
+  background: url('../demo/learn-more/steelsupply/01.jpg') no-repeat fixed top center;
 }
 .page-header.cementsupply {
-  background: url('../demo/learn-more/cementsupply/slider.jpg') no-repeat fixed top center;
+  background: url('../demo/learn-more/cementsupply/04.jpg') no-repeat fixed top center;
 }
 .page-header.order {
   background: url('../demo/learn-more/order/slider.jpg') no-repeat fixed top center;
@@ -4493,18 +4493,43 @@ textarea {
 }
 /*steel slider start*/
 #owl-main .item.item_steel1 {
-  background: url('../demo/learn-more/steelsupply/01.jpg');
-}
-#owl-main .item.item_steel2 {
   background: url('../demo/learn-more/steelsupply/02.jpg');
 }
-#owl-main .item.item_steel3 {
+#owl-main .item.item_steel2 {
   background: url('../demo/learn-more/steelsupply/03.jpg');
+}
+#owl-main .item.item_steel3 {
+  background: url('../demo/learn-more/steelsupply/01.jpg');
 }
 /*steel slider end*/
 
 /*cement slider start*/
+
+#owl-main .item.item_cement1 {
+  background: url('../demo/learn-more/cementsupply/03.jpg');
+}
+
+#owl-main .item.item_cement2 {
+  background: url('../demo/learn-more/cementsupply/01.jpg');
+}
+#owl-main .item.item_cement3 {
+  background: url('../demo/learn-more/cementsupply/04.jpg');
+}
 /*cement slider end*/
+
+/*consulting Slider start*/
+
+#owl-main .item.item_consult1 {
+  background: url('../demo/learn-more/consulting/05.jpg');
+}
+
+#owl-main .item.item_consult2 {
+  background: url('../demo/learn-more/consulting/03.jpg');
+}
+#owl-main .item.item_consult3 {
+  background: url('../demo/learn-more/consulting/04.jpg');
+}
+/*consulting Slider end*/
 
 .landing #owl-main .item:nth-child(1),
 .landing #owl-main .item.item1 {

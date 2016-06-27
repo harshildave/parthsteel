@@ -51,6 +51,10 @@ ResultSet rsf=stf.executeQuery(sqlf);
             background-color: #fff;
             z-index: 9999;
         }
+        
+        a{
+            text-decoration: none;
+        }
     </style>
     <link rel="stylesheet" type="text/css" href="./css/uniform.css" />
     <link rel="stylesheet" type="text/css" href="./css/radio.css" />
@@ -64,7 +68,7 @@ ResultSet rsf=stf.executeQuery(sqlf);
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
 <body data-spy="scroll" data-target=".navbar-main-collapse">
-<!--<div class="loader">
+<div class="loader">
     <div class="sk-fading-circle">
       <div class="sk-circle1 sk-circle"></div>
       <div class="sk-circle2 sk-circle"></div>
@@ -80,12 +84,13 @@ ResultSet rsf=stf.executeQuery(sqlf);
       <div class="sk-circle12 sk-circle"></div>
     </div>
 </div>
--->
-<header id="header" style="
+<header id="header">
+    <!-- For black nav give  
+    style="
     background: black;
     padding-top: 35px;
-    padding-bottom: 5px; top:0px;">
-    
+    padding-bottom: 5px; top:0px;"
+    -->
     <div class="container">
         <!--<div class="row info-bar">
             <div class="col-sm-6">&nbsp; </div>
@@ -148,16 +153,17 @@ ResultSet rsf=stf.executeQuery(sqlf);
         </nav>
     </div>
 </header>
+    
 <!-- SLIDER -->
-<section id="home-slider" >
+<section id="home-slider">
     <div id="owl-main" class="owl-carousel">
-        <div class="item item_steel1" >
-            <div class="overlay" ></div>
-        </div>
-        <div class="item item_steel2" >
+        <div class="item item_steel1">
             <div class="overlay"></div>
         </div>
-        <div class="item item_steel3" >
+        <div class="item item_steel2">
+            <div class="overlay"></div>
+        </div>
+        <div class="item item_steel3">
             <div class="overlay"></div>
         </div>
     </div>
@@ -202,19 +208,39 @@ ResultSet rsf=stf.executeQuery(sqlf);
                 </div>
             </div>
         </article>
-            <!--<div class="row">
-                <div class="col-sm-10 col-sm-offset-1 post-content text">
-                    <form>
-                        <p><input type="radio" name="radio" value="" id="cus" onclick="a()">
-                            godown price for order less than 7 tons </input></p>
-                        <p><input type="radio" name="radio"  id="pro" onclick="b()">
-                            factory price for order greater than 7 tons </input></p>
-
-                    </form>
-                </div>
-            </div>-->
          
-        
+         <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <h2 class="title fz26 upper"><u>Terms And Conditions</u> (Please read it carefully before placing order)</h2>
+                </div>
+         </div>
+         
+         <div class="row">
+                <div class="col-sm-10 col-sm-offset-1 post-content">
+                    <div class="text">
+                        <p><b>1. Terms and condition for ISI TMT bars supply </b>:- There are two types of dispatch in TMT bars one is 
+                        directly from factory and secondly from godown. For the order above 7 tonne TMT bars,the orders will be 
+                        dispatched from the factory and the order below 5 tonnes TMT bars ,it will be dispatched from godown.if 
+                        the dispatch is from godown,loading and unloading,transportation charges will be applied.we provide labors
+                        for unloading TMT bars for the orders which are direct from the factory.Area except Rajkot city ,unloading
+                        TMT bars must be arranged by the purchaser.</p>
+                    
+                    <p><b>2. Rate condition for Steel</b> :- Rates for ISI TMT bars are based on day- to -day rates.</p>
+                    
+                    <p><b>3. Payment condition for steel</b> :- .Specially for rajkot city customers,the payment must be made the 
+                        next day itself through rtgs,neft,cheque or money transfer where as the customers except Rajkot city have 
+                        to do their payment in advance by neft,rtgs,cheques or money transfer.</p>
+                    
+                    <p><b>4. Complaints regarding steel</b> :- Have any confusion or complain regarding ISI TMT bars!! In that case 
+                        company sales officer or technical person will visit to site and check the materials and he will decide 
+                        about what to do regarding confusion or complaint. </p>
+                    
+                    <p><b>5. Regarding steels weight</b>:-If  distpatch of any ISI TMT bars from factory or from godown,weight variation 
+                        between two weigh bridges I.e.+or- 5kgs per tonne must be accepted by purchaser.</p>
+                    </div>
+                </div>
+         </div>   
+         
             <div class="col-xs-12 col-md-10 col-md-offset-1 " >
                 <label class="element-animation1 btn btn-lg btn-primary btn-block" onclick="a()" >
                 <span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span>
@@ -236,7 +262,7 @@ ResultSet rsf=stf.executeQuery(sqlf);
         
         <div class="row">
             <div class="col-sm-10 col-sm-offset-2" style="margin-top:20px;">
-                    <h2 class="title fz26 upper">The Runtime price of godown for various companies are shown below.  .</h2>
+                    <h2 class="title fz26 upper">The Runtime price of godown for various companies are shown below.</h2>
                 </div>
         </div>
         

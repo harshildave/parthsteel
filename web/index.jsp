@@ -619,6 +619,9 @@
                     <div class="item">
                         <img src="./demo/index/company/02.jpg" alt="" class="img-responsive" />
                     </div>
+                   <div class="item">
+                        <img src="./demo/index/company/03.jpg" alt="" class="img-responsive" />
+                    </div>
                 </div>
                 <h2 class="post title">With over 30 years of experience, we have established an efficient process that successfully provides clients</h2>
                 <div class="text-content">
