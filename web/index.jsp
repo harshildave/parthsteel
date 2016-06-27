@@ -217,13 +217,23 @@
             </div>
         </div>
         <div class="row">
-                        <h2 class="title fz42">PARTH STEELS TEAMS WITH OUR CLIENTS FROM THE EARLIEST IDEA OF BUILDING CONCEPT</h2>
+                        <h2 class="title fz42">PARTH STEELS TEAMS WITH OUR CLIENTS FROM THE EARLIEST IDEA OF BUILDING 
+                            CONCEPT</h2>
             <div class="col-sm-7" style="padding: 50px;">
 
                 <div class="text">
-                    <p>WE ARE LEADING SUPPLIERS IN STEEL AND WORKING WITH DIFFERENT STEEL MANUFACTURERS. WE HAVE PRIMARY STEEL AS WELL AS SECONDARY STEEL  IN OUR GODOWN.IN PRIMARY STEEL WE ARE WORKING WITH JINDAL (JSW) STEELS , AND IN SECONDARY STEELS WE ARE WORKING WITH ASR,DIAMOND,GUJARAT NRE, MONO, FRIENDS.WE ARE GIVING  RATES  TO CUSTOMERS AS PER REQUIREMENTS .THE CUSTOMERS WHICH ARE HAVING ORDERS UPTO 20 TONNES ARE PROVIDED FROM OUR GODOWN AND THOSE CUSTOMERS WHICH ARE HAVING ORDERS GREATER THAN 20 TONNES ARE PROVIDED DIRECT FROM  MILL.WE ARE HAVING DIFFERENT DIAMETER STEEL BARS IN OUR GODOWN SUCH AS 8MM, 10MM, 12MM, 16MM AND 20MM.</p>
+                    <p>WE ARE LEADING SUPPLIERS IN STEEL AND WORKING WITH DIFFERENT STEEL MANUFACTURERS. 
+                        WE HAVE PRIMARY STEEL AS WELL AS SECONDARY STEEL  IN OUR GODOWN.IN PRIMARY STEEL WE ARE WORKING 
+                        WITH JINDAL PANTHER (JSW) STEELS , AND IN SECONDARY STEELS WE ARE WORKING WITH ASR,DIAMOND,GUJARAT NRE, 
+                        MONO, E.T., PARMESHWAR, GALLANT, VIBRANT. WE ARE GIVING  RATES  TO CUSTOMERS AS PER REQUIREMENTS 
+                        .THE CUSTOMERS WHICH ARE HAVING ORDERS UPTO 5 TONNES ARE PROVIDED FROM OUR GODOWN AND THOSE CUSTOMERS 
+                        WHICH ARE HAVING ORDERS GREATER THAN 7 TONNES ARE PROVIDED DIRECT FROM  MILL.WE ARE HAVING
+                        DIFFERENT DIAMETER STEEL BARS IN OUR GODOWN SUCH AS 8MM, 10MM, 12MM, 16MM, 20MM AND 25MM.</p>
 
-                    <p>WHILE IN CEMENT  WE ARE LEADING SUPPLIERS AND ALSO WE ARE STOCKIST OF KAMAL CEMENT.WE SUPPLY MINIMUM 10 BAGS OF CEMENT TO CUSTOMERS FROM OUR GODOWN AND THOSE CUSTOMERS WHICH ARE HAVING BIG ORDERS ARE DIRECTLY SUPPLIED FROM THE DUMP AND FACTORY.WE ARE SUPPLYING OPC, PPC AND SRPC TYPES OF CEMENT TO THE CUSTOMERS.</p>
+                    <p>WHILE IN CEMENT  WE ARE LEADING SUPPLIERS AND ALSO WE ARE STOCKIST OF KAMAL CEMENT.WE 
+                        SUPPLY MINIMUM 10 BAGS OF CEMENT TO CUSTOMERS FROM OUR GODOWN AND THOSE CUSTOMERS WHICH 
+                        ARE HAVING BIG ORDERS ARE DIRECTLY SUPPLIED FROM THE DUMP AND FACTORY.WE ARE SUPPLYING OPC, 
+                        PPC AND SRPC TYPES OF CEMENT TO THE CUSTOMERS.</p>
                 </div>
             </div>
             <div class="col-sm-5 sm-nopadding-bottom" style="padding: 50px;">
@@ -484,14 +494,15 @@
                     <img src="./demo/index/team/01.jpg" alt="" />
                     <div class="tmb-data">
                         <h3 class="tmb-title">Pankaj Ranbhan</h3>
-                        <h4 class="tmb-position">Founder | CEO</h4>
-                        <div class="tmb-links">
+                        <h4 class="tmb-position">Co Founder | CEO</h4>
+                        <h4 class="tmb-position">M: 8866020991</h4>
+                        <!--<div class="tmb-links">
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-google-plus"></i></a>
                             <a href="#"><i class="fa fa-pinterest"></i></a>
                             <a href="#"><i class="fa fa-instagram"></i></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -500,14 +511,15 @@
                     <img src="./demo/index/team/02.jpg" alt="" />
                     <div class="tmb-data">
                         <h3 class="tmb-title">Sunil Shah</h3>
-                        <h4 class="tmb-position">Managing Director | Sales Head</h4>
-                        <div class="tmb-links">
+                        <h4 class="tmb-position">Co Founder | Accounting Head</h4>
+                        <h4 class="tmb-position">M: 9924602345</h4>
+                        <!-- <div class="tmb-links">
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-google-plus"></i></a>
                             <a href="#"><i class="fa fa-pinterest"></i></a>
                             <a href="#"><i class="fa fa-instagram"></i></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -516,14 +528,15 @@
                     <img src="./demo/index/team/03.jpg" alt="" />
                     <div class="tmb-data">
                         <h3 class="tmb-title">Sandip Ranbhan</h3>
-                        <h4 class="tmb-position">Managing Director | Marketing Head</h4>
-                        <div class="tmb-links">
+                        <h4 class="tmb-position">Co Founder | Director of Sales and Marketing</h4>
+                        <h4 class="tmb-position">M: 9033292922</h4>
+                        <!--<div class="tmb-links">
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-google-plus"></i></a>
                             <a href="#"><i class="fa fa-pinterest"></i></a>
                             <a href="#"><i class="fa fa-instagram"></i></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -607,20 +620,24 @@
                         <img src="./demo/index/company/02.jpg" alt="" class="img-responsive" />
                     </div>
                 </div>
-                <h2 class="post title">With over 25 years of experience, we have established an efficient process that successfully provides clients</h2>
+                <h2 class="post title">With over 30 years of experience, we have established an efficient process that successfully provides clients</h2>
                 <div class="text-content">
 
-                    <p>WE STARTED OUR COMPANY ON 19 NOVEMBER 1995.FROM THAT DATE TILL NOW WE HAVE A LOT EXPERIENCE IN SUPPLYING OF GOODS AS WELL  AS IN CONSULTING CUSTOMERS FOR ANY QUERIES REGARDING CONSTRUCTION OR PLAN OR ELEVATION.FOUNDERS OF COMPANY ARE PANKAJBHAI RANBHAN , SUNILBHAI RANBHAN AND SANDIPBHAI RANBHAN . PANKAJBHAI IS CEO OF COMPANY WHILE SANDIPBHAI AND SUNILBHAI ARE MARKETING MANAGERS AS WELL AS SALES HEAD OF COMPANY. QUALIFICATION OF ALL THREE PARTNERS IS BCOM AND EXPERIENCE IS OF 25 YEARS IN CIVIL FIELD. THEY HAVE ALSO CONSTRUCTED 175 BUNGALOWS BEFORE 15 YEARS AGO SO THEY HAVE THOROUGH KNOWLEDGE OF CONSTRUCTION FIELD.</p>
+                    <p>WE STARTED OUR COMPANY ON 19 NOVEMBER 1986.FROM THAT DATE TILL NOW WE HAVE A LOT EXPERIENCE IN SUPPLYING OF GOODS AS WELL  AS IN CONSULTING CUSTOMERS FOR ANY QUERIES REGARDING CONSTRUCTION OR PLAN OR ELEVATION.FOUNDERS OF COMPANY ARE PANKAJBHAI RANBHAN , SUNILBHAI SHAH AND SANDIPBHAI RANBHAN . PANKAJBHAI IS CEO OF COMPANY WHILE SANDIPBHAI AND SUNILBHAI ARE MARKETING MANAGERS AS WELL AS SALES HEAD OF COMPANY. QUALIFICATION OF ALL THREE PARTNERS IS BCOM AND EXPERIENCE IS OF 25 YEARS IN CIVIL FIELD. THEY HAVE ALSO CONSTRUCTED 175 BUNGALOWS BEFORE 15 YEARS AGO SO THEY HAVE THOROUGH KNOWLEDGE OF CONSTRUCTION FIELD.</p>
 
                     <p>FIRSTLY OUR COMPANY STARTED WITH CTD BARS AND VSP I.E.MAIN PRODUCERS STEEL ,DEALING WITH LIMITED COMPANIES AS THERE WERE NO MORE COMPETITORS IN MARKET. NOW-A-DAYS AS COMPETITION INCREASE IN MARKET WE STARTED DEALING WITH AND WORKING WITH STEEL COMPANIES LIKE:-</p>
                     <p>1. ASR (KUTCHH)</p>
-                    <p>2. DIAMOND (BHAVNAGAR)</p>
-                    <p>3. FRIENDS TMT </p>
+                    <p>2. DIAMOND 500+(BHAVNAGAR)</p>
+                    <p>3. ELECTRO THERM </p>
                     <p>4. GUJARAT NRE</p>
-                    <p>5. JINDAL PANTHER (MAIN PRODUCERS=JSW STEELS)</p>
+                    <p>5. MONO TMT</p>
+                    <p>6. PARMESHWAR TMT</p>
+                    <p>7. VIBRANT</p>
+                    <p>8. GALLANT</p>
+                    <p>9. JINDAL PANTHER (MAIN PRODUCERS=JSW STEELS)</p>
 
                     <p>WE NOW ONLY DEAL IN ISI TMT BARS , ISI TMX BARS , ISI QST BARS . EARLIER WE STOKED ONLY UPTO 10MT AND NOW WE STOCK FROM 200MT TO 250 MT. EARLIER WE HAVE ONLY LIMITED SALES IN STEEL NOW WE HAVE SALES PER MONTH UPTO 400MT TO 500MT.WHEN WE STARTED OUR FIRM AT THAT WE HAD ONLY 1200 SQ.FT. OFFICE AND GODOWN AND NOW WE OWN ABOUT 3000 SQ.FT. OFFICE CUM GODOWN.WE STARTED OUR COMPANY WITH 3 PARTNERS AND NO EMPLOYEES AND ALSO WITH 2 LABOURS. NOW WE HAVE 25 EMPLOYEES AND 30 LABOURS WORKING HARD FOR CUSTOMERS CONTINUOUSLY.AND WITH ALL YOUR SUPPORT WE WOULD EXPAND OUR COMPANY MORE AND MORE AND AFTER FEW YEARS WE ARE PLANNING TO START OUR BRANCHES IN DIFFERENT CITIES.WE HAVE EMPLOYED ABOUT 112 EMPLOYEES FOR OUR COMPANY.</p>
-                    <p>FIRST WE STARTED WITH SUPPLYING OF STEEL THEN FEW YEARS LATER WE STARTED SUPPLY OF CEMENT.WE ARE SUPPLYING KAMAL CEMENT AND NOW WE ARE STOCKIST IN KAMAL CEMENT WITH SUPPORT OF CUSTOMERS. OUR SALES WHEN WE STARTED WORKING WITH KAMAL CEMENT WAS 500MT IN TRADE AND NON-TRADE , BUT NOW OUR SALES IS UPTO 5000MT PER MONTH IN TRADE AND NON TRADE. FIRST OF ALL WE STARTED WORKING WITH L&T CEMENT WITH LIMITED SALES FEW YEARS AFTER WE STARTED OUR COMPANY.</p>
+                    <p>FIRST WE STARTED WITH SUPPLYING OF STEEL THEN FEW YEARS LATER WE STARTED SUPPLY OF CEMENT.WE ARE SUPPLYING KAMAL CEMENT AND NOW WE ARE STOCKIST IN KAMAL CEMENT WITH SUPPORT OF CUSTOMERS. OUR SALES WHEN WE STARTED WORKING WITH KAMAL CEMENT WAS 500MT IN TRADE AND NON-TRADE , BUT NOW OUR SALES IS UPTO 1500MT PER MONTH IN TRADE AND NON TRADE. FIRST OF ALL WE STARTED WORKING WITH L&T CEMENT WITH LIMITED SALES FEW YEARS AFTER WE STARTED OUR COMPANY.</p>
                     <p>NOW OUR NEXT STEP OF EXPANDING BUSINESS IS TO START CONSULTANCY FIRM WITHIN OUR COMPANY AND THIS IS POSSIBLE ONLY IF WE GOT GOOD SUPPORT FROM CUSTOMERS. WE HAVE LOTS OF OFFLINE CUSTOMERS TO BE DEALT WITH BUT WE ARE PLANNING TO DEAL WITH ONLINE CUSTOMERS TOO AND BUILDING  ONLINE CUSTOMER NETWORK. WE WILL ALSO ADVERTISEMENT FOR OUR WEBSITE AND TAKE MAXIMUM STEPS TO REACH YOU BY THIS WEBSITE. WE SUPPLY ONLY BEST BRAND PRODUCTS TO THE CUSTOMERS AND SATISFY THEIR NEEDS.WHEN WE STARTED OUR FIRM WE WERE TRANSPORTING STEEL AND CEMENT IN RICKSHAW AND WITH SMALL VEHICLES , BUT NOW WE TRANSPORT IT VIA TRAILERS AND TRUCKS AS PER REQUIREMENT.</p>
                 </div>
            </div>

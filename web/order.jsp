@@ -145,40 +145,49 @@ else{
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 post-content">
                     <div class="text">
-                    <p><b>Terms and condition for ISI TMT bars supply </b>:- There are two types of dispatch in Tmt bars one is 
-                        directly from factory and secondly from godown. For the order above 7 ton material the bars will 
-                        be dispatched from factory and below 5 ton material from godown. If dispatch is from godown frait, 
-                        loading and unloading charges will be applied.We provide labours for direct dispatch in surrounding 20 km. 
-                        Area there after purchase has arrange labour for unloading materials</p>
+                    <p><b>1. Terms and condition for ISI TMT bars supply </b>:- There are two types of dispatch in TMT bars one is 
+                        directly from factory and secondly from godown. For the order above 7 tonne TMT bars,the orders will be 
+                        dispatched from the factory and the order below 5 tonnes TMT bars ,it will be dispatched from godown.if 
+                        the dispatch is from godown,loading and unloading,transportation charges will be applied.we provide labors
+                        for unloading TMT bars for the orders which are direct from the factory.Area except Rajkot city ,unloading
+                        TMT bars must be arranged by the purchaser.</p>
                     
-                    <p><b>Rate condition for Steel</b> :- Rate for ISI TMT is basis on day to day rates.</p>
+                    <p><b>2. Rate condition for Steel</b> :- Rates for ISI TMT bars are based on day- to -day rates.</p>
                     
-                    <p><b>Payment condition for steel</b> :- In Rajkot and in 20km surrounding payment should be paid next day 
-                        after the materials are dispatched. For out of city, the payment should be advance by rtgs- neft or money 
-                        transfer.</p>
+                    <p><b>3. Payment condition for steel</b> :- .Specially for rajkot city customers,the payment must be made the 
+                        next day itself through rtgs,neft,cheque or money transfer where as the customers except Rajkot city have 
+                        to do their payment in advance by neft,rtgs,cheques or money transfer.</p>
                     
-                    <p><b>Complains regarding steel</b> :- Have any confusion or complain regarding ISI TMT bars!! In that case 
+                    <p><b>4. Complaints regarding steel</b> :- Have any confusion or complain regarding ISI TMT bars!! In that case 
                         company sales officer or technical person will visit to site and check the materials and he will decide 
-                        about what to do regarding confusion or complain. </p>
+                        about what to do regarding confusion or complaint. </p>
                     
-                    <p><b>Terms and condition for cement supply</b> :- There are two types of dispatch in Cement one is 
-                        directly from factory and secondly from dump. For the order above 17 ton material the cement will 
-                        be dispatched from factory and below that would be from dump.For cement, order must be greater then 3 tons 
-                        minimum. Dump dispatch would be in 20km surrounding Rajkot, whereas factory dispatch up 
-                        to Gujarat</p>
+                    <p><b>5. Regarding steels weight</b>:-If  distpatch of any ISI TMT bars from factory or from godown,weight variation 
+                        between two weigh bridges I.e.+or- 5kgs per tonne must be accepted by purchaser.</p>
                     
-                    <p><b>Rate condition for cement </b>:- There are two types of rate in cement mainly trade and nontrade. <b>Trade</b> :- 
-                        In this segment minimum 60 bags (3ton) free delivery in surrounding 20 km area from Rajkot. Rate applied would be 
-                        on day to day bases if quantity is below 3 Mt. Frait and labour charges also applied. <b>Non trade</b> :- Minimum 
-                        quantity 51 Mt. required and rate will be applied on day to day basis.</p>
+                    <p><b>6. Terms and condition for cement supply</b> :- There are two types of dispatch in Cement one is 
+                        directly from factory and secondly from dump. For the order above 17tonnes of cement,it will be 
+                        dispatched from factory and below purchase 17 tonnes cement,it will be dispatched from dump.the 
+                        customers must have to order 3tonnes of cement minimum and particularly for 3 to 7 tonnes cement 
+                        order the site area must be within 20km from the dump and  order from 10 to 17 tonnes. 
+                        There is no compulsion of the area as it dispatches to any part of rajkot district.
+                    </p>
                     
-                    <p><b>Payment condition for cement</b> :- For <b>Non Trade</b> advance payment by cheque or d/d and rtgs- neft- transfer for the 
-                        cement company. For <b>Trade</b> payment in Rajkot next day after dispatch and out of city payment should 
-                        advance by cheque or rtgs- d/d neft- transfer.</p>
+                    <p><b>7. Rate condition for cement </b>:- There are two types of rate in cement mainly trade and nontrade. <b>Trade</b> :- 
+                        3tonnes to 17 tonnes  of cement are considered as trade and the rates for trade are decided by the cement company.
+                        <b>Non trade</b> :- 51 tonnes of cement or above are considered as non-trade and the rates for non trade cement 
+                        are decoded by cement company.</p>
                     
-                    <p><b>Complain regarding cement</b> :- As per company's terms, for any confusion or complain, the company provides technical 
-                        person will visit the site and will conduct tests for the quality of concrete and cement and Thus will decide about 
-                        what to do regarding confusion or complain</p>
+                    <p><b>8. Payment condition for cement</b> :- For <b>Non Trade</b> orders the payment must be done in advance
+                        by the methods of rtgs,cheques,neft or money transfer. For rajkot city customers and for customers except rajkot city must have to pay the 
+                        bill in advance through rtgs,cheque,neft or money transfer. For <b>Trade</b> orders the customers must pay the bill
+                        next day after dispatch through rtgs,cheque,neft or money transfer. Out of city payment should be in advance by 
+                        cheque or rtgs, neft transfer.</p>
+                    
+                    <p><b>9. Complain regarding cement</b> :- As  per company's terms and conditions, for any confusion or complaints 
+                        regarding cement material the company provides engineer or other technical person who will visit the site and 
+                        will casts the cube test at the site in front of purchaser and will take the cubes at lab for testing and thus 
+                        they will decide about confusion and complaint.</p>
                     
                     </div>
                 </div>

@@ -4491,6 +4491,21 @@ textarea {
 #owl-main .item.item3 {
   background: url('../demo/index/slider/03.jpg');
 }
+/*steel slider start*/
+#owl-main .item.item_steel1 {
+  background: url('../demo/learn-more/steelsupply/01.jpg');
+}
+#owl-main .item.item_steel2 {
+  background: url('../demo/learn-more/steelsupply/02.jpg');
+}
+#owl-main .item.item_steel3 {
+  background: url('../demo/learn-more/steelsupply/03.jpg');
+}
+/*steel slider end*/
+
+/*cement slider start*/
+/*cement slider end*/
+
 .landing #owl-main .item:nth-child(1),
 .landing #owl-main .item.item1 {
   background: url('../demo/landing/slider/01.jpg');
@@ -5466,19 +5481,18 @@ body.overflowed #header.light {
   margin: 0px;
 }
 .counter1 .data .number {
-  font-size: 23px;
-  line-height: 23px;
+  font-size: 1.4375em;
+  line-height: 1.4375em;
 }
 .counter1 .data .rs {
-  margin-left:5px;
-  font-size: 15px;
-  line-height: 23px;
+  margin-left: 0.313em;
+  font-size: 0.938em;
+  line-height: 1.4375em;
 }
 .counter1 .data .literal {
-  font-size: 23px;
-  line-height: 23px;
+  font-size: 1.4375em;
+  line-height: 1.4375em;
 }
-
 /* SOCIAL COUNTER */
 .social-counter {
   background-color: #000;

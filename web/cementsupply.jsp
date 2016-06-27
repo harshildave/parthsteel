@@ -173,7 +173,7 @@ String comp[]={"Kamal"};
 
 <!-- price -->
 <section class="section nopadding" id="counters">
-    <div class="container">
+    <div class="container-fluid">
         
         <div class="row">
             <div class="col-sm-10 col-sm-offset-2" style="margin-top:20px;">
@@ -182,28 +182,30 @@ String comp[]={"Kamal"};
         </div>
         
         <div class="row">
-            <div class="jt_col col-sm-2 col-md-2 col-sm-offset-2 ">
+            
+            <div class="col-xs-2 col-sm-2 col-md-2 ">
                 <div class="counter1 clearfix" >
                     <div class="data">
-                        <span class="literal">Cement Company</span>
+                        <span class="literal">Companies</span>
                     </div>
                 </div>
             </div>
-            <div class="jt_col col-sm-2 col-md-2">
+            
+            <div class="col-xs-2 col-sm-2 col-md-2 col-xs-offset-2">
                 <div class="counter1 clearfix" >
                     <div class="data">
                         <span class="literal">PPC</span>
                     </div>
                 </div>
             </div>
-            <div class="jt_col col-sm-2 col-md-2" style="margin-left:15px;">
+            <div class=" col-xs-2 col-sm-2 col-md-2" style="margin-left:15px;">
                 <div class="counter1 clearfix" >
                     <div class="data">
                         <span class="literal">OPC</span>
                     </div>
                 </div>
             </div>
-            <div class="jt_col col-sm-2 col-md-2"style="margin-left:15px;">
+            <div class=" col-xs-2 col-sm-2 col-md-2"style="margin-left:15px;">
                 <div class="counter1 clearfix" >
                     <div class="data">
                         <span class="literal">SRPC</span>
@@ -221,30 +223,31 @@ String comp[]={"Kamal"};
                     Float srpc = rs.getFloat(5);
                     
         %>
-            <div class="row">
-
-                <div class="jt_col col-sm-2 col-md-1 col-sm-offset-2 ">
+        <div class="row">
+              
+            <div class="jt_col col-xs-2 col-sm-2 col-md-2  ">
                 <div class="counter1 clearfix" >
                     <div class="data">
                         <span class="literal"><%=comp[i]%></span>
                     </div>
                 </div>
             </div>
-            <div class="jt_col col-sm-2 col-md-2 col-sm-offset-1">
+            
+            <div class="jt_col col-xs-2 col-sm-2 col-md-2 col-xs-offset-2">
                 <div class="counter1 clearfix" data-count="<%=ppc%>">
                     <div class="data">
                         <span class="number"><%=ppc%></span> <span class="rs">Rs.</span>
                     </div>
                 </div>
             </div>
-            <div class="jt_col col-sm-2 col-md-2"  style="margin-left:15px;">
+            <div class="jt_col col-xs-2 col-sm-2 col-md-2"  style="margin-left:15px;">
                 <div class="counter1 clearfix" data-count="<%=opc%>">
                     <div class="data">
                         <span class="number"><%=opc%></span><span class="rs">Rs.</span>
                     </div>
                 </div>
             </div>
-            <div class="jt_col col-sm-2 col-md-2" style="margin-left:15px;">
+            <div class="jt_col col-xs-2 col-sm-2 col-md-2" style="margin-left:15px;">
                 <div class="counter1 clearfix" data-count="<%=srpc%>">
                     <div class="data">
                         <span class="number"><%=srpc%></span><span class="rs">Rs.</span>
