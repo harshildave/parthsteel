@@ -92,11 +92,11 @@ else{
                     </ul>-->
                 </li>
                 <li class="page-scroll menu-item menu-item-has-children">
-                    <a href="index.jsp#services">Services</a>
+                    <a href="#services">Services</a>
                     <ul class="sub-menu">
-                        <li class="menu-item"><a href="./house-renovation.html">Steel Supply</a></li>
-                        <li class="menu-item"><a href="./architecture.html">Cement Supply</a></li>
-                        <li class="menu-item"><a href="./consulting.html">Consultancy</a></li>
+                        <li class="menu-item"><a href="steelsupply.jsp">Steel Supply</a></li>
+                        <li class="menu-item"><a href="cementsupply.jsp">Cement Supply</a></li>
+                        <li class="menu-item"><a href="consulting.html">Consultancy</a></li>
                         
                     </ul>
                 </li>

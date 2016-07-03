@@ -149,10 +149,16 @@ try{
                             <a href="forms.html" style="padding: 20px;"><i class="fa fa-edit fa-fw"></i> Forms<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="steel.jsp" style="padding: 20px;">Steel</a>
+                                    <a href="steel.jsp" style="padding: 20px;">Steel Godown</a>
                                 </li>
                                 <li>
-                                    <a href="cement.jsp" style="padding: 20px;">Cement</a>
+                                    <a href="steelfactory.jsp" style="padding: 20px;">Steel Factory</a>
+                                </li>
+                                <li>
+                                    <a href="cement.jsp" style="padding: 20px;">Cement Godown</a>
+                                </li>
+                                <li>
+                                    <a href="cementfactory.jsp" style="padding: 20px;">Cement Factory</a>
                                 </li>
                             </ul>
                         </li>
@@ -189,7 +195,7 @@ try{
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Steel Form</h1>
+                    <h1 class="page-header">Steel Godown Pricing Form</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -198,7 +204,7 @@ try{
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Please input the pricing below : 
+                            Please input the Godown pricing for steel below : 
                         </div>
                         <div class="panel-body">
                             <div class="row">
@@ -301,16 +307,14 @@ try{
         con=conn.DBconnect();  
         
 String company = request.getParameter("company");
-int eight = Integer.parseInt(request.getParameter("8"));
-int ten = Integer.parseInt(request.getParameter("10"));
-int twelve = Integer.parseInt(request.getParameter("12"));
-int sixteen = Integer.parseInt(request.getParameter("16"));
-int twenty = Integer.parseInt(request.getParameter("20"));
-int twentyfive = Integer.parseInt(request.getParameter("25"));
+Float eight = Float.parseFloat(request.getParameter("8"));
+Float ten = Float.parseFloat(request.getParameter("10"));
+Float twelve = Float.parseFloat(request.getParameter("12"));
+Float sixteen = Float.parseFloat(request.getParameter("16"));
+Float twenty = Float.parseFloat(request.getParameter("20"));
+Float twentyfive = Float.parseFloat(request.getParameter("25"));
 
 
- 
- 
       Statement st= con.createStatement(); 
  int x=st.executeUpdate("update steel_grades set 8mm='"+eight+"',10mm='"+ten+"',12mm='"+twelve+"',16mm='"+sixteen+"',20mm='"+twenty+"',25mm='"+twentyfive+"' where pid='"+company+"'"); 
  if(x == 1){

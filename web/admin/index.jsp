@@ -137,10 +137,16 @@ try{
                             <a href="#" style="padding: 20px;"><i class="fa fa-edit fa-fw"></i> Forms<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="steel.jsp" style="padding: 20px;">Steel</a>
+                                    <a href="steel.jsp" style="padding: 20px;">Steel Godown</a>
                                 </li>
                                 <li>
-                                    <a href="cement.jsp" style="padding: 20px;">Cement</a>
+                                    <a href="steelfactory.jsp" style="padding: 20px;">Steel Factory</a>
+                                </li>
+                                <li>
+                                    <a href="cement.jsp" style="padding: 20px;">Cement Godown</a>
+                                </li>
+                                <li>
+                                    <a href="cementfactory.jsp" style="padding: 20px;">Cement Factory</a>
                                 </li>
                             </ul>
                         </li>
@@ -226,7 +232,7 @@ try{
                         <div class="panel-heading">
                             <div class="row">
                                 <div class="row">
-                                <div class="huge" style="text-align: center;padding-top: 20px; padding-bottom: 20px;">Steel</div>
+                                <div class="huge" style="text-align: center;padding-top: 20px; padding-bottom: 20px;">Steel Godown</div>
                                 </div>
                             </div>
                         </div>
@@ -244,11 +250,51 @@ try{
                         <div class="panel-heading">
                             <div class="row">
                                 <div class="row">
-                                <div class="huge" style="text-align: center;padding-top: 20px; padding-bottom: 20px;">Cement</div>
+                                <div class="huge" style="text-align: center;padding-top: 20px; padding-bottom: 20px;">Cement Godown</div>
                                 </div>
                             </div>
                         </div>
                         <a href="cement.jsp">
+                            <div class="panel-footer">
+                                <span class="pull-left">View Details</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row -->
+            
+            <div class="row">
+                <div class="col-lg-6 col-md-6" style="padding-left: 70px;padding-right: 70px; margin-top: 50px;">
+                    <div class="panel panel-yellow">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="row">
+                                <div class="huge" style="text-align: center;padding-top: 20px; padding-bottom: 20px;">Steel Factory</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="steelfactory.jsp">
+                            <div class="panel-footer">
+                                <span class="pull-left">View Details</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6" style="padding-left: 70px;padding-right: 70px; margin-top: 50px;">
+                    <div class="panel panel-red">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="row">
+                                <div class="huge" style="text-align: center;padding-top: 20px; padding-bottom: 20px;">Cement Factory</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="cementfactory.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">View Details</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>

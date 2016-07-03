@@ -153,10 +153,16 @@ ResultSet rs = st.executeQuery(sql);
                             <a href="forms.html" style="padding: 20px;"><i class="fa fa-edit fa-fw"></i> Forms<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="steel.jsp" style="padding: 20px;">Steel</a>
+                                    <a href="steel.jsp" style="padding: 20px;">Steel Godown</a>
                                 </li>
                                 <li>
-                                    <a href="cement.jsp" style="padding: 20px;">Cement</a>
+                                    <a href="steelfactory.jsp" style="padding: 20px;">Steel Factory</a>
+                                </li>
+                                <li>
+                                    <a href="cement.jsp" style="padding: 20px;">Cement Godown</a>
+                                </li>
+                                <li>
+                                    <a href="cementfactory.jsp" style="padding: 20px;">Cement Factory</a>
                                 </li>
                             </ul>
                         </li>

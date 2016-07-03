@@ -342,42 +342,42 @@ ResultSet rsf=stf.executeQuery(sqlf);
             <div class="jt_col col-xs-1 col-md-1 col-sm-offset-1 col-xs-offset-1">
                 <div class="counter1 clearfix" data-count="<%=eight%>">
                     <div class="title fz18 ">
-                        <span class="number"><%=eight%></span> <span class="rs">Rs.</span>
+                        <span class="rs">Rs.</span> <span class="literal"><%=eight%></span>
                     </div>
                 </div>
             </div>
             <div class="jt_col col-xs-1 col-md-1"  style="//margin-left:15px;">
                 <div class="counter1 clearfix" data-count="<%=ten%>">
                     <div class="title fz18 ">
-                        <span class="number"><%=ten%></span> <span class="rs">Rs.</span>
+                        <span class="rs">Rs.</span> <span class="literal"><%=ten%></span>
                     </div>
                 </div>
             </div>
             <div class="jt_col col-xs-1 col-md-1" style="//margin-left:15px;">
                 <div class="counter1 clearfix" data-count="<%=twelve%>">
                     <div class="title fz18 ">
-                        <span class="number"><%=twelve%></span> <span class="rs">Rs.</span>
+                        <span class="rs">Rs.</span> <span class="literal"><%=twelve%></span>
                     </div>
                 </div>
             </div>
             <div class="jt_col col-xs-1 col-md-1" style="//margin-left:15px;">
                 <div class="counter1 clearfix" data-count="<%=sixteen%>">
                     <div class="title fz18 ">
-                        <span class="number"><%=sixteen%></span> <span class="rs">Rs.</span>
+                        <span class="rs">Rs.</span> <span class="literal"><%=sixteen%></span>
                     </div>
                 </div>
             </div>
             <div class="jt_col col-xs-1 col-md-1" style="//margin-left:15px;">
                 <div class="counter1 clearfix" data-count="<%=twenty%>">
                     <div class="title fz18 ">
-                        <span class="number"><%=twenty%></span> <span class="rs">Rs.</span>
+                        <span class="rs">Rs.</span> <span class="literal"><%=twenty%></span>
                     </div>
                 </div>
             </div>
             <div class="jt_col col-xs-1 col-md-1"style="//margin-left:15px;">
                 <div class="counter1 clearfix" data-count="<%=twentyfive%>">
                     <div class="title fz18 ">
-                        <span class="number"><%=twentyfive%></span> <span class="rs">Rs.</span>
+                        <span class="rs">Rs.</span> <span class="literal"><%=twentyfive%></span>
                     </div>
                 </div>
             </div>
@@ -487,42 +487,42 @@ ResultSet rsf=stf.executeQuery(sqlf);
             <div class="jt_col col-xs-1 col-md-1 col-sm-offset-1 col-xs-offset-1 ">
                 <div class="counter1 clearfix" data-count="<%=eight%>">
                     <div class="title fz18  ">
-                        <span class="number"><%=eight%></span> <span class="rs">Rs.</span>
+                        <span class="rs">Rs.</span> <span class="literal"><%=eight%></span>
                     </div>
                 </div>
             </div>
             <div class="jt_col col-xs-1 col-md-1"  style="//margin-left:15px;">
                 <div class="counter1 clearfix" data-count="<%=ten%>">
                     <div class="title fz18  ">
-                        <span class="number"><%=ten%></span> <span class="rs">Rs.</span>
+                        <span class="rs">Rs.</span> <span class="literal"><%=ten%></span>
                     </div>
                 </div>
             </div>
             <div class="jt_col col-xs-1 col-md-1" style="//margin-left:15px;">
                 <div class="counter1 clearfix" data-count="<%=twelve%>">
                     <div class="title fz18  ">
-                        <span class="number"><%=twelve%></span> <span class="rs">Rs.</span>
+                        <span class="rs">Rs.</span> <span class="literal"><%=twelve%></span>
                     </div>
                 </div>
             </div>
             <div class="jt_col col-xs-1 col-md-1" style="//margin-left:15px;">
                 <div class="counter1 clearfix" data-count="<%=sixteen%>">
                     <div class="title fz18  ">
-                        <span class="number"><%=sixteen%></span> <span class="rs">Rs.</span>
+                        <span class="rs">Rs.</span> <span class="literal"><%=sixteen%></span>
                     </div>
                 </div>
             </div>
             <div class="jt_col col-xs-1 col-md-1" style="//margin-left:15px;">
                 <div class="counter1 clearfix" data-count="<%=twenty%>">
                     <div class="title fz18  ">
-                        <span class="number"><%=twenty%></span> <span class="rs">Rs.</span>
+                        <span class="rs">Rs.</span> <span class="literal"><%=twenty%></span>
                     </div>
                 </div>
             </div>
             <div class="jt_col col-xs-1 col-md-1"style="//margin-left:15px;">
                 <div class="counter1 clearfix" data-count="<%=twentyfive%>">
                     <div class="title fz18  ">
-                        <span class="number"><%=twentyfive%></span> <span class="rs">Rs.</span>
+                        <span class="rs">Rs.</span> <span class="literal"><%=twentyfive%></span>
                     </div>
                 </div>
             </div>

@@ -669,6 +669,21 @@
                 <div class="client-logo">
                     <a href="#"><img src="./demo/index/clients/05.jpg" alt="Client logo" /></a>
                 </div>
+                <div class="client-logo">
+                    <a href="#"><img src="./demo/index/clients/06.jpg" alt="Client logo" /></a>
+                </div>
+                <div class="client-logo">
+                    <a href="#"><img src="./demo/index/clients/07.jpg" alt="Client logo" /></a>
+                </div>
+                <div class="client-logo">
+                    <a href="#"><img src="./demo/index/clients/08.jpg" alt="Client logo" /></a>
+                </div>
+                <div class="client-logo">
+                    <a href="#"><img src="./demo/index/clients/09.jpg" alt="Client logo" /></a>
+                </div>
+                <div class="client-logo">
+                    <a href="#"><img src="./demo/index/clients/10.jpg" alt="Client logo" /></a>
+                </div>
             </div>
         </div>
     </div>
