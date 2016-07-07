@@ -204,12 +204,17 @@ ResultSet rsf=stf.executeQuery(sqlf);
                     <p>3. FRIENDS TMT </p>
                     <p>4. GUJARAT NRE</p>
                     <p>5. JINDAL PANTHER (MAIN PRODUCERS=JSW STEELS)</p>
+                    <p>6. PARMESHWAR TMT</p>
+                    <p>7. VIBRANT</p>
+                    <p>8. GALLANT</p>
+                    <p>9. JINDAL PANTHER (MAIN PRODUCERS=JSW STEELS)</p>
+
                     </div>
                 </div>
             </div>
         </article>
          
-         <div class="row">
+         <div class="row" id="tnc">
                 <div class="col-sm-10 col-sm-offset-1">
                     <h2 class="title fz26 upper"><u>Terms And Conditions</u> (Please read it carefully before placing order)</h2>
                 </div>
@@ -612,31 +617,30 @@ ResultSet rsf=stf.executeQuery(sqlf);
                 <div class="voffset30"></div>
                 <p class="block-title">Support</p>
                 <p class="subtitle light">We support 24/7, feel free to contact us anytime you need.We are here to help.</p>
+                <p class="block-title"><a href="steelsupply.jsp#tnc">Terms and Conditions for Steel</a></p>
+                <p class="block-title"><a href="cementsupply.jsp#tnc">Terms and Conditions for Cement</a></p>
             </div>
             <div class="col-md-6 col-lg-3">
-                <p class="block-title">contact info</p>
+                <p class="block-title">Contact Info</p>
                 <ul class="contact-info">
                     <li class="subtitle light"><i class="fa fa-building-o"></i> 13 Lati Plot, Opp. Dodiya Weigh Bridge,Kuwadva Road, Rajkot-3.</li>
-                    <li class="subtitle light"><i class="fa fa-phone"></i> 0281-8452699</li>
-                    <li class="subtitle light"><i class="fa fa-envelope-o"></i> support@parthsteel.com</li>
-                    <li class="subtitle light"><i class="fa fa-clock-o"></i> 8AM - 5 PM 7/365</li>
+                    <li class="subtitle light"><i class="fa fa-phone"></i> 0281-2452699</li>
+                    <li class="subtitle light"><i class="fa fa-envelope-o"></i> parthsteels123@gmail.com</li>
+                    <li class="subtitle light"><i class="fa fa-clock-o"></i> 8AM - 10 PM 7/365</li>
                 </ul>
             </div>
             <div class="col-md-6 col-lg-3">
-                <p class="block-title">we are social on</p>
+                <p class="block-title">We are social on</p>
                 <div class="row">
                     <div class="col-xs-4">
-                        <a href="www.facebook.com" class="social-icon"><i class="fa fa-facebook"></i></a>
-                        <span class="social-count">1K+</span>
-                    </div>
-                    <!-- <div class="col-xs-4">
-                        <a href="./index.jsp" class="social-icon"><i class="fa fa-twitter"></i></a>
-                        <span class="social-count">1K+</span>
+                        <a href="www.facebook.com/parthsteels123" class="social-icon"><i class="fa fa-facebook"></i></a>
                     </div>
                     <div class="col-xs-4">
-                        <a href="./index.jsp" class="social-icon"><i class="fa fa-instagram"></i></a>
-                        <span class="social-count">1K+</span> 
-                    </div>-->
+                        <a href="www.twitter.com/@parth_steels" class="social-icon"><i class="fa fa-twitter"></i></a>
+                    </div>
+                    <div class="col-xs-4">
+                        <a href="www.linkedin.com/in/parthsteels123" class="social-icon"><i class="fa fa-linkedin"></i></a>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">

@@ -143,10 +143,10 @@ try{
                                     <a href="steelfactory.jsp" style="padding: 20px;">Steel Factory</a>
                                 </li>
                                 <li>
-                                    <a href="cement.jsp" style="padding: 20px;">Cement Godown</a>
+                                    <a href="cement.jsp" style="padding: 20px;">Cement NON Trade</a>
                                 </li>
                                 <li>
-                                    <a href="cementfactory.jsp" style="padding: 20px;">Cement Factory</a>
+                                    <a href="cementtrade.jsp" style="padding: 20px;">Cement Trade</a>
                                 </li>
                             </ul>
                         </li>
@@ -250,7 +250,7 @@ try{
                         <div class="panel-heading">
                             <div class="row">
                                 <div class="row">
-                                <div class="huge" style="text-align: center;padding-top: 20px; padding-bottom: 20px;">Cement Godown</div>
+                                <div class="huge" style="text-align: center;padding-top: 20px; padding-bottom: 20px;">Cement NON Trade</div>
                                 </div>
                             </div>
                         </div>
@@ -290,11 +290,11 @@ try{
                         <div class="panel-heading">
                             <div class="row">
                                 <div class="row">
-                                <div class="huge" style="text-align: center;padding-top: 20px; padding-bottom: 20px;">Cement Factory</div>
+                                <div class="huge" style="text-align: center;padding-top: 20px; padding-bottom: 20px;">Cement Trade</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="cementfactory.jsp">
+                        <a href="cementtrade.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">View Details</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>

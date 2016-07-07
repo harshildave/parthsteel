@@ -155,10 +155,10 @@ try{
                                     <a href="steelfactory.jsp" style="padding: 20px;">Steel Factory</a>
                                 </li>
                                 <li>
-                                    <a href="cement.jsp" style="padding: 20px;">Cement Godown</a>
+                                    <a href="cement.jsp" style="padding: 20px;">Cement NON Trade</a>
                                 </li>
                                 <li>
-                                    <a href="cementfactory.jsp" style="padding: 20px;">Cement Factory</a>
+                                    <a href="cementtrade.jsp" style="padding: 20px;">Cement Trade</a>
                                 </li>
                             </ul>
                         </li>

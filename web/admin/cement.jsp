@@ -150,10 +150,10 @@ try{
                                     <a href="steelfactory.jsp" style="padding: 20px;">Steel Factory</a>
                                 </li>
                                 <li>
-                                    <a href="cement.jsp" style="padding: 20px;">Cement Godown</a>
+                                    <a href="cement.jsp" style="padding: 20px;">Cement NON Trade</a>
                                 </li>
                                 <li>
-                                    <a href="cementfactory.jsp" style="padding: 20px;">Cement Factory</a>
+                                    <a href="cementtrade.jsp" style="padding: 20px;">Cement Trade</a>
                                 </li>
                             </ul>
                         </li>
@@ -190,7 +190,7 @@ try{
          <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Cement Godown Pricing Form</h1>
+                    <h1 class="page-header">Cement NON Trade Pricing Form</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -199,7 +199,7 @@ try{
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Please input the godown pricing for cement below : 
+                            Please input the NON Trade pricing for cement below : 
                         </div>
                         <div class="panel-body">
                             <div class="row">
@@ -293,7 +293,7 @@ int opc = Integer.parseInt(request.getParameter("opc"));
 int srpc = Integer.parseInt(request.getParameter("srpc"));
 
       Statement st= con.createStatement(); 
- int x=st.executeUpdate("update cement_grades set ppc='"+ppc+"',opc='"+opc+"',srpc='"+srpc+"' where pid='"+company+"'"); 
+ int x=st.executeUpdate("update cement_nontrade set ppc='"+ppc+"',opc='"+opc+"',srpc='"+srpc+"' where pid='"+company+"'"); 
  if(x == 1){
     out.println("<script>alert('Update sucessfull');</script>");
      out.println("<script>window.location='cement.jsp';</script>");
