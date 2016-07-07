@@ -19,8 +19,8 @@ public class connection {
     public Connection DBconnect() throws ClassNotFoundException, SQLException,
             InstantiationException, IllegalAccessException{
         Class.forName("com.mysql.jdbc.Driver").newInstance();  
-        con=DriverManager.getConnection("jdbc:mysql://localhost:3306/parthsteel","root",""); 
-        //con=DriverManager.getConnection("jdbc:mysql://127.7.1.2:3306/parthsteel","adminWEWH358","BQLPvL8_ARa8"); 
+        //con=DriverManager.getConnection("jdbc:mysql://localhost:3306/parthsteel","root",""); 
+        con=DriverManager.getConnection("jdbc:mysql://127.7.1.2:3306/parthsteel","adminWEWH358","BQLPvL8_ARa8"); 
         return con;
     }
      

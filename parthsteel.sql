@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 03, 2016 at 09:21 AM
+-- Generation Time: Jul 07, 2016 at 04:10 PM
 -- Server version: 5.6.21
 -- PHP Version: 5.6.3
 
@@ -43,10 +43,10 @@ INSERT INTO `admin` (`aid`, `username`, `password`, `email`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `cement_factory`
+-- Table structure for table `cement_nontrade`
 --
 
-CREATE TABLE IF NOT EXISTS `cement_factory` (
+CREATE TABLE IF NOT EXISTS `cement_nontrade` (
   `cid` int(11) NOT NULL,
   `pid` int(11) NOT NULL,
   `ppc` float NOT NULL,
@@ -55,19 +55,19 @@ CREATE TABLE IF NOT EXISTS `cement_factory` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `cement_factory`
+-- Dumping data for table `cement_nontrade`
 --
 
-INSERT INTO `cement_factory` (`cid`, `pid`, `ppc`, `opc`, `srpc`) VALUES
-(1, 5, 4, 5, 6);
+INSERT INTO `cement_nontrade` (`cid`, `pid`, `ppc`, `opc`, `srpc`) VALUES
+(1, 5, 7, 7, 7);
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `cement_grades`
+-- Table structure for table `cement_trade`
 --
 
-CREATE TABLE IF NOT EXISTS `cement_grades` (
+CREATE TABLE IF NOT EXISTS `cement_trade` (
   `cid` int(11) NOT NULL,
   `pid` int(11) NOT NULL,
   `ppc` float NOT NULL,
@@ -76,11 +76,11 @@ CREATE TABLE IF NOT EXISTS `cement_grades` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `cement_grades`
+-- Dumping data for table `cement_trade`
 --
 
-INSERT INTO `cement_grades` (`cid`, `pid`, `ppc`, `opc`, `srpc`) VALUES
-(1, 5, 1, 2, 3);
+INSERT INTO `cement_trade` (`cid`, `pid`, `ppc`, `opc`, `srpc`) VALUES
+(1, 5, 8, 8, 8);
 
 -- --------------------------------------------------------
 
@@ -241,16 +241,16 @@ ALTER TABLE `admin`
  ADD PRIMARY KEY (`aid`);
 
 --
--- Indexes for table `cement_factory`
+-- Indexes for table `cement_nontrade`
 --
-ALTER TABLE `cement_factory`
- ADD PRIMARY KEY (`cid`), ADD UNIQUE KEY `pid` (`pid`);
+ALTER TABLE `cement_nontrade`
+ ADD PRIMARY KEY (`cid`), ADD KEY `pid` (`pid`);
 
 --
--- Indexes for table `cement_grades`
+-- Indexes for table `cement_trade`
 --
-ALTER TABLE `cement_grades`
- ADD PRIMARY KEY (`cid`), ADD KEY `pid` (`pid`);
+ALTER TABLE `cement_trade`
+ ADD PRIMARY KEY (`cid`), ADD UNIQUE KEY `pid` (`pid`);
 
 --
 -- Indexes for table `order`

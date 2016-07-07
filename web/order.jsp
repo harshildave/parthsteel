@@ -409,13 +409,13 @@ catch(Exception e){
                 <p class="block-title">We are social on</p>
                 <div class="row">
                     <div class="col-xs-4">
-                        <a href="www.facebook.com/parthsteels123" class="social-icon"><i class="fa fa-facebook"></i></a>
+                        <a href="http://www.facebook.com/parthsteels123" class="social-icon"><i class="fa fa-facebook"></i></a>
                     </div>
                     <div class="col-xs-4">
-                        <a href="www.twitter.com/@parth_steels" class="social-icon"><i class="fa fa-twitter"></i></a>
+                        <a href="http://www.twitter.com/@parth_steels" class="social-icon"><i class="fa fa-twitter"></i></a>
                     </div>
                     <div class="col-xs-4">
-                        <a href="www.linkedin.com/in/parthsteels123" class="social-icon"><i class="fa fa-linkedin"></i></a>
+                        <a href="http://www.linkedin.com/in/parthsteels123" class="social-icon"><i class="fa fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>
