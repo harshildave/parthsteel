@@ -19,7 +19,7 @@ var marker=new google.maps.Marker({
 
 marker.setMap(map);
 var infowindow = new google.maps.InfoWindow({
-  content:"<div style='height:100px;width:240px;'><h3>Parth steels</h3><div>13 Lati Plot, Opp. Dodiya Weight Bridge,</div><div>Kuwadva Road, Rajkot-3.</div><div> Telephone: 0281-2452699</div>",
+  content:"<div style='height:100px;width:240px;'><h3>Parth steels</h3><div>13 Lati Plot, Opp. Dodiya Weight Bridge,</div><div>Kuwadva Road, Rajkot-3.</div><div> Telephone: 0281-2452699</div>"
   });
 
 infowindow.open(map,marker);

@@ -617,6 +617,8 @@ ResultSet rsf=stf.executeQuery(sqlf);
                 <div class="voffset30"></div>
                 <p class="block-title">Support</p>
                 <p class="subtitle light">We support 24/7, feel free to contact us anytime you need.We are here to help.</p>
+                </div>
+            <div class="col-md-6 col-lg-3">
                 <p class="block-title"><a href="steelsupply.jsp#tnc">Terms and Conditions for Steel</a></p>
                 <p class="block-title"><a href="cementsupply.jsp#tnc">Terms and Conditions for Cement</a></p>
             </div>
@@ -630,7 +632,7 @@ ResultSet rsf=stf.executeQuery(sqlf);
                 </ul>
             </div>
             <div class="col-md-6 col-lg-3">
-                <p class="block-title">We are social on</p>
+                <p class="block-title">Follow Us On</p>
                 <div class="row">
                     <div class="col-xs-4">
                         <a href="http://www.facebook.com/parthsteels123" class="social-icon"><i class="fa fa-facebook"></i></a>
@@ -643,7 +645,9 @@ ResultSet rsf=stf.executeQuery(sqlf);
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3">
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-lg-12">
                 <div class="footer-posts">
                     <p class="block-title">Copyright © 2016 Parth Steels, IN. All Rights Reserved. Designed and Developed by <a href="http:\\www.fiverr.com\harshildave7" style="color: white">Harshil Dave</a>.</p>
                     <!-- <div class="footer-post">
@@ -676,7 +680,6 @@ ResultSet rsf=stf.executeQuery(sqlf);
     </div>
     <a href="#top" class="scrolltop"><i class="fa fa-angle-up"></i></a>
 </footer>
-
 <!-- END FOOTER -->
 
 <!-- SCRIPTS -->
@@ -690,7 +693,7 @@ ResultSet rsf=stf.executeQuery(sqlf);
 <script src="./js/jquery.validate.min.js"></script>
 <script src="./js/jquery.form.min.js"></script>
 <script src="./js/default.js"></script>
-<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAK1IzPnTIiw_7k0rOy41ShTZwCFON5WQY"></script>
 <script type="text/javascript" src="./js/google-map.js"></script>
 
 <script>

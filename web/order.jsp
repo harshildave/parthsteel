@@ -465,7 +465,7 @@ catch(Exception e){
 <script src="./js/jquery.validate.min.js"></script>
 <script src="./js/jquery.form.min.js"></script>
 <script src="./js/default.js"></script>
-<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAK1IzPnTIiw_7k0rOy41ShTZwCFON5WQY"></script>
 <script type="text/javascript" src="./js/google-map.js"></script>
 <script>
 function ProductChange()

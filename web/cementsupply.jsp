@@ -195,7 +195,7 @@ String comp[]={"Kamal"};
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 post-content">
                     <div class="text">
-                        <p>FIRST WE STARTED WITH SUPPLYING OF STEEL THEN FEW YEARS LATER WE STARTED SUPPLY OF CEMENT.WE ARE SUPPLYING KAMAL CEMENT AND NOW WE ARE STOCKIST IN KAMAL CEMENT WITH SUPPORT OF CUSTOMERS. OUR SALES WHEN WE STARTED WORKING WITH KAMAL CEMENT WAS 500MT IN TRADE AND NON-TRADE , BUT NOW OUR SALES IS UPTO 5000MT PER MONTH IN TRADE AND NON TRADE. FIRST OF ALL WE STARTED WORKING WITH L&T CEMENT WITH LIMITED SALES FEW YEARS AFTER WE STARTED OUR COMPANY.</p>
+                        <p>FIRST WE STARTED WITH SUPPLYING OF STEEL THEN FEW YEARS LATER WE STARTED SUPPLY OF CEMENT.WE ARE SUPPLYING KAMAL CEMENT AND NOW WE ARE STOCKIST IN KAMAL CEMENT WITH SUPPORT OF CUSTOMERS. OUR SALES WHEN WE STARTED WORKING WITH KAMAL CEMENT WAS 500MT IN TRADE AND NON-TRADE , BUT NOW OUR SALES IS UPTO 1500MT PER MONTH IN TRADE AND NON TRADE. FIRST OF ALL WE STARTED WORKING WITH L&T CEMENT WITH LIMITED SALES FEW YEARS AFTER WE STARTED OUR COMPANY.</p>
 
                     </div>
                 </div>
@@ -508,7 +508,6 @@ String comp[]={"Kamal"};
     </div>
 </section>
 <!-- END SOCIAL -->
-
 <!-- FOOTER -->
 <footer id="footer">
     <div class="container">
@@ -518,6 +517,8 @@ String comp[]={"Kamal"};
                 <div class="voffset30"></div>
                 <p class="block-title">Support</p>
                 <p class="subtitle light">We support 24/7, feel free to contact us anytime you need.We are here to help.</p>
+                </div>
+            <div class="col-md-6 col-lg-3">
                 <p class="block-title"><a href="steelsupply.jsp#tnc">Terms and Conditions for Steel</a></p>
                 <p class="block-title"><a href="cementsupply.jsp#tnc">Terms and Conditions for Cement</a></p>
             </div>
@@ -531,7 +532,7 @@ String comp[]={"Kamal"};
                 </ul>
             </div>
             <div class="col-md-6 col-lg-3">
-                <p class="block-title">We are social on</p>
+                <p class="block-title">Follow Us On</p>
                 <div class="row">
                     <div class="col-xs-4">
                         <a href="http://www.facebook.com/parthsteels123" class="social-icon"><i class="fa fa-facebook"></i></a>
@@ -544,7 +545,9 @@ String comp[]={"Kamal"};
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3">
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-lg-12">
                 <div class="footer-posts">
                     <p class="block-title">Copyright © 2016 Parth Steels, IN. All Rights Reserved. Designed and Developed by <a href="http:\\www.fiverr.com\harshildave7" style="color: white">Harshil Dave</a>.</p>
                     <!-- <div class="footer-post">
@@ -577,7 +580,6 @@ String comp[]={"Kamal"};
     </div>
     <a href="#top" class="scrolltop"><i class="fa fa-angle-up"></i></a>
 </footer>
-
 <!-- END FOOTER -->
 
 <!-- SCRIPTS -->
@@ -591,7 +593,7 @@ String comp[]={"Kamal"};
 <script src="./js/jquery.validate.min.js"></script>
 <script src="./js/jquery.form.min.js"></script>
 <script src="./js/default.js"></script>
-<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAK1IzPnTIiw_7k0rOy41ShTZwCFON5WQY"></script>
 <script type="text/javascript" src="./js/google-map.js"></script>
 
 <script>
