@@ -2,6 +2,12 @@
     Document   : login.jsp
     Created on : 5 Apr, 2016, 6:31:31 PM
     Author     : Admin
+Question: Why mails fails to send from openshift servers but works fine with localhosts ? 
+
+Reason: Google was blocking access from unknown location (app in production)
+
+Solution: Go to http://www.google.com/accounts/DisplayUnlockCaptcha and click continue 
+(this will grant access for 10 minutes for registering new apps). After this my app in production started sending emails ;)
 --%>
 
 <%@page import="javax.mail.internet.MimeMessage"%>
@@ -60,7 +66,7 @@
                             }
                         %>
                         <div id="login" class="animate form">
-                            <form   autocomplete="on"> 
+                            <form   autocomplete="on"method="post"> 
                                 <h1>Log in</h1> 
                                 <p> 
                                     <label for="username" class="uname" data-icon="&#xe803;" > Your email or username </label>
@@ -84,7 +90,7 @@
                         </div>
 
                         <div id="register" class="animate form">
-                            <form  autocomplete="on"> 
+                            <form  autocomplete="on" method="post"> 
                                 <h1> Sign up </h1> 
                                 <p> 
                                     <label for="usernamesignup" class="uname" data-icon="&#xe803;">Your username</label>
@@ -236,7 +242,7 @@ if (rs.next())
     uid = rs.getInt(1);
 }
  if(x == 1){
-     String link = "http://localhost:8080/colgproject/parth%20steels%20final/LoginRegistrationForm/validateuser.jsp?uid="+uid;
+     String link = "http://www.parthsteels.com/LoginRegistrationForm/validateuser.jsp?uid="+uid;
      StringBuilder bodyText = new StringBuilder();
                 bodyText.append("<div>")
                  .append("  Dear User<br/><br/>")
